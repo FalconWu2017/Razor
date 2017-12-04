@@ -4,8 +4,9 @@
 using System.Composition;
 using Microsoft.CodeAnalysis.Host;
 using Microsoft.CodeAnalysis.Host.Mef;
+using Microsoft.CodeAnalysis.Razor;
 
-namespace Microsoft.CodeAnalysis.Razor
+namespace Microsoft.VisualStudio.LanguageServices.Razor
 {
     [Shared]
     [ExportWorkspaceServiceFactory(typeof(ErrorReporter))]
